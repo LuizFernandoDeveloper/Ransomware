@@ -24,6 +24,6 @@ os.remove(fileName)
 newFile = "test.txt"
 newFile = open(f'{newFile}', "wb")
 newFile.write(decryptData)
-newFile.close
+newFile.close()
 
 # Finish 
